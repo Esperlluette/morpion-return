@@ -77,29 +77,31 @@ Function play() {
    * 
    * - lance l'éffaement du tableau
    *    appel de la fonctio purgeTable
-   * - lance l'initialisation du tableau de jeu
-   *    appel de la fonction initTable 
+
    * - réinitialise les scores
    *    appel de la fonction netScore
    * 
    * - lance la partie
    */
-  init();
+}
+
+Function purgeTable() {
+  /**
+   * @params : Array table
+   * @return : Array tablePurged
+   * 
+   *  Vide le tableau passé en paramètres pour le retourner.
+   * 
+   */
 }
 
 Function netScore() {
   /**
-   * @params : Int 
+   * @params : Int
+   * 
+   * réinitialise tous les scores de tous les joueurs.
    */
 }
-
-Function init() {
-  /**
-   * @return : Array table.
-   * intialise le jeu
-   */
-}
-
 Function hasWin() {
   /**
    * @params : Array table
